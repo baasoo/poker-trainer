@@ -219,7 +219,7 @@ export default function GamePage() {
         suit: suitMap[card.suit] || card.suit.charAt(0).toUpperCase(),
       }));
 
-      const nextStreet =
+      const nextStreet: GameState["street"] =
         gameState.street === "pre-flop"
           ? "flop"
           : gameState.street === "flop"
