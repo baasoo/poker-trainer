@@ -1,0 +1,44 @@
+:root {
+  /* Colors */
+  --pt-bg: #07090f;
+  --pt-text: #eef2ff;
+  --pt-text2: #b0b9d4;
+  --pt-text3: #747e99;
+  --pt-surface: #0f1419;
+  --pt-surface2: #141d2e;
+  --pt-surface3: #1a2438;
+  --pt-border: #1f2a3d;
+  --pt-border2: #263348;
+
+  /* Colors - Buttons */
+  --pt-gold: #c8961a;
+  --pt-gold-lt: #e0aa28;
+  --pt-gold-bg: rgba(200, 150, 26, 0.12);
+  --pt-gold-border: rgba(200, 150, 26, 0.20);
+  --pt-blue: #3d7ef5;
+  --pt-blue-lt: #5a93ff;
+
+  /* Colors - Accent */
+  --pt-green: #22c55e;
+  --pt-violet: #a78bfa;
+  --pt-cyan: #22d3ee;
+  --pt-amber: #f59e0b;
+  --pt-red: #f87171;
+
+  /* Fonts */
+  --pt-font-head: 'Space Grotesk', sans-serif;
+  --pt-font-body: 'Inter', sans-serif;
+
+  /* Spacing & Sizing */
+  --pt-r-sm: 8px;
+  --pt-r-md: 12px;
+  --pt-r-lg: 16px;
+
+  /* Transitions */
+  --pt-ease: 0.2s ease;
+  --pt-ease-bar: 0.3s ease;
+
+  /* Shadows */
+  --pt-shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --pt-shadow-modal: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}

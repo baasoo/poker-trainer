@@ -1,0 +1,560 @@
+
+> poker-trainer@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.110:3000
+- Environments: .env.local
+✓ Ready in 873ms
+
+ GET /login 200 in 1353ms (next.js: 740ms, application-code: 613ms)
+ GET /login 200 in 319ms (next.js: 20ms, application-code: 299ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+ GET / 200 in 233ms (next.js: 66ms, application-code: 167ms)
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 3.2s (next.js: 2.7s, application-code: 537ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 161ms (next.js: 33ms, application-code: 128ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 186ms (next.js: 6ms, application-code: 179ms)
+ GET /login 200 in 156ms (next.js: 12ms, application-code: 144ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 82ms (next.js: 30ms, application-code: 53ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 78ms (next.js: 7ms, application-code: 71ms)
+ GET /api/auth/providers 200 in 53ms (next.js: 30ms, application-code: 23ms)
+ GET /api/auth/csrf 200 in 41ms (next.js: 9ms, application-code: 32ms)
+(node:5796) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ POST /api/auth/signin/google 200 in 143ms (next.js: 4ms, application-code: 139ms)
+signIn callback called - provider: google email: baasoo@gmail.com
+Processing Google OAuth signin for: baasoo@gmail.com
+Database query result - rows found: 1
+Linking Google OAuth to existing user: baasoo@gmail.com Current provider: google User ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+User updated successfully, returning user object with ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+JWT callback - user: baasoo@gmail.com profile: baasoo@gmail.com token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+ GET /api/auth/callback/google?state=N-6ehdDGNCYB7znRvFa18ni8pHmFyGuw9Hndg9_W3FI&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM-D_El98ui4ICrUjBtFFYOF8-uWW-tq0AvO-uabyVJowsVNCQ-lMFROuBNzNU9y8Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none 302 in 416ms (next.js: 7ms, application-code: 409ms)
+ GET /dashboard 200 in 180ms (next.js: 64ms, application-code: 116ms)
+ GET /login 200 in 98ms (next.js: 9ms, application-code: 88ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 86ms (next.js: 30ms, application-code: 56ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 97ms (next.js: 10ms, application-code: 87ms)
+ GET /login 200 in 1004ms (next.js: 176ms, application-code: 828ms)
+ GET /login 200 in 736ms (next.js: 78ms, application-code: 659ms)
+ GET /login 200 in 510ms (next.js: 21ms, application-code: 489ms)
+ GET /login 200 in 513ms (next.js: 113ms, application-code: 400ms)
+ GET /login 200 in 513ms (next.js: 219ms, application-code: 294ms)
+ GET /login 200 in 585ms (next.js: 292ms, application-code: 292ms)
+ GET /login 200 in 347ms (next.js: 40ms, application-code: 307ms)
+ GET /login 200 in 241ms (next.js: 20ms, application-code: 221ms)
+ GET /login 200 in 151ms (next.js: 10ms, application-code: 141ms)
+ GET /login 200 in 150ms (next.js: 69ms, application-code: 81ms)
+ GET /login 200 in 619ms (next.js: 113ms, application-code: 506ms)
+ GET /login 200 in 436ms (next.js: 14ms, application-code: 422ms)
+ GET /login 200 in 411ms (next.js: 88ms, application-code: 322ms)
+ GET /login 200 in 414ms (next.js: 156ms, application-code: 258ms)
+ GET /login 200 in 422ms (next.js: 18ms, application-code: 404ms)
+ GET /login 200 in 427ms (next.js: 200ms, application-code: 227ms)
+ GET /login 200 in 321ms (next.js: 15ms, application-code: 306ms)
+ GET /login 200 in 260ms (next.js: 12ms, application-code: 248ms)
+ GET /login 200 in 170ms (next.js: 75ms, application-code: 96ms)
+ GET /login 200 in 176ms (next.js: 12ms, application-code: 164ms)
+✓ Compiled in 90ms
+ GET /login 200 in 278ms (next.js: 95ms, application-code: 183ms)
+ GET /login 200 in 108ms (next.js: 10ms, application-code: 98ms)
+✓ Compiled in 87ms
+ GET /login 200 in 313ms (next.js: 89ms, application-code: 224ms)
+ GET /login 200 in 137ms (next.js: 13ms, application-code: 125ms)
+ GET /login 200 in 229ms (next.js: 108ms, application-code: 121ms)
+ GET /login 200 in 78ms (next.js: 8ms, application-code: 70ms)
+ GET /login 200 in 235ms (next.js: 95ms, application-code: 139ms)
+ GET /login 200 in 74ms (next.js: 8ms, application-code: 65ms)
+ GET /login 200 in 240ms (next.js: 75ms, application-code: 165ms)
+ GET /login 200 in 95ms (next.js: 7ms, application-code: 87ms)
+ GET /login 200 in 240ms (next.js: 102ms, application-code: 138ms)
+ GET /login 200 in 72ms (next.js: 9ms, application-code: 63ms)
+ GET /login 200 in 242ms (next.js: 111ms, application-code: 130ms)
+ GET /login 200 in 69ms (next.js: 9ms, application-code: 61ms)
+ GET /login 200 in 209ms (next.js: 79ms, application-code: 130ms)
+ GET /login 200 in 68ms (next.js: 7ms, application-code: 61ms)
+ GET /login 200 in 261ms (next.js: 105ms, application-code: 157ms)
+ GET /login 200 in 90ms (next.js: 8ms, application-code: 82ms)
+ GET /api/auth/providers 200 in 398ms (next.js: 287ms, application-code: 111ms)
+ GET /api/auth/csrf 200 in 71ms (next.js: 14ms, application-code: 57ms)
+ POST /api/auth/signin/google 200 in 161ms (next.js: 4ms, application-code: 157ms)
+signIn callback called - provider: google email: baasoo@gmail.com
+Processing Google OAuth signin for: baasoo@gmail.com
+Database query result - rows found: 1
+Linking Google OAuth to existing user: baasoo@gmail.com Current provider: google User ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+User updated successfully, ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+JWT callback - user: baasoo@gmail.com profile: baasoo@gmail.com token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+ GET /api/auth/callback/google?state=FuV6HMcvirsoB88lQWoetCLjCwa3QFS6Nck7db3Tvpo&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM_PFJM-9ZblJ-c6_B-M0pxhSWcRPYkWBWi_NpFtZuqtKTKjv1B7eOxplWpRq5R40Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none 302 in 1516ms (next.js: 3ms, application-code: 1512ms)
+ GET /dashboard 200 in 381ms (next.js: 132ms, application-code: 250ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 79ms (next.js: 29ms, application-code: 50ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 131ms (next.js: 4ms, application-code: 127ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 173ms (next.js: 77ms, application-code: 96ms)
+ GET /game/new 200 in 149ms (next.js: 77ms, application-code: 72ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games 201 in 231ms (next.js: 112ms, application-code: 118ms)
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 1120ms (next.js: 1083ms, application-code: 37ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/620a1347-4b65-4d64-989f-135e33ee628c 200 in 1143ms (next.js: 1040ms, application-code: 103ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/620a1347-4b65-4d64-989f-135e33ee628c 200 in 123ms (next.js: 31ms, application-code: 92ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/620a1347-4b65-4d64-989f-135e33ee628c/round 201 in 1243ms (next.js: 1152ms, application-code: 90ms)
+✓ Compiled in 106ms
+ GET /login 200 in 608ms (next.js: 104ms, application-code: 504ms)
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 229ms (next.js: 150ms, application-code: 79ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/620a1347-4b65-4d64-989f-135e33ee628c/round 201 in 546ms (next.js: 310ms, application-code: 236ms)
+✓ Compiled in 48ms
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 404ms (next.js: 334ms, application-code: 70ms)
+ GET /login 200 in 422ms (next.js: 108ms, application-code: 314ms)
+✓ Compiled in 86ms
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 521ms (next.js: 358ms, application-code: 162ms)
+ GET /login 200 in 521ms (next.js: 454ms, application-code: 67ms)
+✓ Compiled in 86ms
+ GET /login 200 in 279ms (next.js: 57ms, application-code: 221ms)
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 175ms (next.js: 110ms, application-code: 65ms)
+✓ Compiled in 53ms
+ GET /login 200 in 110ms (next.js: 64ms, application-code: 46ms)
+ GET /game/620a1347-4b65-4d64-989f-135e33ee628c 200 in 85ms (next.js: 37ms, application-code: 48ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/620a1347-4b65-4d64-989f-135e33ee628c/round 201 in 525ms (next.js: 170ms, application-code: 354ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ PATCH /api/games/620a1347-4b65-4d64-989f-135e33ee628c 200 in 3.1s (next.js: 2.9s, application-code: 206ms)
+ GET /dashboard 200 in 59ms (next.js: 18ms, application-code: 42ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 163ms (next.js: 77ms, application-code: 86ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 95ms (next.js: 13ms, application-code: 82ms)
+ GET /game/new 200 in 187ms (next.js: 127ms, application-code: 60ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games 201 in 155ms (next.js: 41ms, application-code: 115ms)
+ GET /game/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 100ms (next.js: 47ms, application-code: 53ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 120ms (next.js: 21ms, application-code: 100ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 134ms (next.js: 3ms, application-code: 131ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3/round 201 in 264ms (next.js: 33ms, application-code: 231ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3/round 201 in 443ms (next.js: 30ms, application-code: 413ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3/round 201 in 161ms (next.js: 43ms, application-code: 118ms)
+✓ Compiled in 595ms
+ GET /login 200 in 646ms (next.js: 149ms, application-code: 497ms)
+ GET /game/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 389ms (next.js: 244ms, application-code: 146ms)
+✓ Compiled in 144ms
+ GET /login 200 in 620ms (next.js: 115ms, application-code: 505ms)
+ GET /game/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 424ms (next.js: 298ms, application-code: 125ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ PATCH /api/games/69804113-52ff-4dc3-bdf6-e80f4b53eed3 200 in 852ms (next.js: 484ms, application-code: 367ms)
+ GET /dashboard 200 in 208ms (next.js: 62ms, application-code: 146ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 115ms (next.js: 34ms, application-code: 82ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 137ms (next.js: 4ms, application-code: 133ms)
+ GET /game/new 200 in 93ms (next.js: 24ms, application-code: 69ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games 201 in 154ms (next.js: 36ms, application-code: 118ms)
+ GET /game/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 281ms (next.js: 90ms, application-code: 191ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 144ms (next.js: 32ms, application-code: 112ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 119ms (next.js: 6ms, application-code: 113ms)
+ GET /game/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 616ms (next.js: 34ms, application-code: 582ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 135ms (next.js: 65ms, application-code: 70ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 91ms (next.js: 8ms, application-code: 83ms)
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 254ms (next.js: 29ms, application-code: 225ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/95c96854-62a2-4f79-a25f-55d32f038f04/round 201 in 215ms (next.js: 120ms, application-code: 94ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/95c96854-62a2-4f79-a25f-55d32f038f04/round 201 in 150ms (next.js: 30ms, application-code: 120ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/95c96854-62a2-4f79-a25f-55d32f038f04/round 201 in 117ms (next.js: 28ms, application-code: 89ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ PATCH /api/games/95c96854-62a2-4f79-a25f-55d32f038f04 200 in 177ms (next.js: 26ms, application-code: 151ms)
+ GET /dashboard 200 in 37ms (next.js: 6ms, application-code: 32ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 88ms (next.js: 6ms, application-code: 82ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 106ms (next.js: 6ms, application-code: 100ms)
+ GET /game/new 200 in 55ms (next.js: 6ms, application-code: 49ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games 201 in 138ms (next.js: 6ms, application-code: 132ms)
+ GET /game/e726959e-4a3c-47d9-bbd8-b8b58a7a9620 200 in 270ms (next.js: 97ms, application-code: 174ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620 200 in 139ms (next.js: 26ms, application-code: 113ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620 200 in 109ms (next.js: 5ms, application-code: 104ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620/round 201 in 115ms (next.js: 27ms, application-code: 88ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620/round 201 in 129ms (next.js: 27ms, application-code: 102ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ POST /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620/round 201 in 131ms (next.js: 27ms, application-code: 104ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ PATCH /api/games/e726959e-4a3c-47d9-bbd8-b8b58a7a9620 200 in 191ms (next.js: 26ms, application-code: 165ms)
+ GET /dashboard 200 in 131ms (next.js: 20ms, application-code: 111ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 79ms (next.js: 4ms, application-code: 75ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 120ms (next.js: 5ms, application-code: 115ms)
+ GET /game/new 200 in 52ms (next.js: 5ms, application-code: 47ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 137ms (next.js: 11ms, application-code: 127ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 138ms (next.js: 13ms, application-code: 125ms)
+ GET /api/auth/csrf 200 in 41ms (next.js: 29ms, application-code: 12ms)
+ POST /api/auth/signout 200 in 35ms (next.js: 6ms, application-code: 30ms)
+ GET /api/auth/session 200 in 71ms (next.js: 22ms, application-code: 48ms)
+ GET /login 200 in 258ms (next.js: 11ms, application-code: 247ms)
+ GET /api/auth/session 200 in 50ms (next.js: 7ms, application-code: 43ms)
+ GET /api/auth/session 200 in 31ms (next.js: 5ms, application-code: 27ms)
+ GET /api/auth/providers 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET /api/auth/csrf 200 in 51ms (next.js: 10ms, application-code: 41ms)
+ POST /api/auth/signin/google 200 in 224ms (next.js: 14ms, application-code: 210ms)
+signIn callback called - provider: google email: baasoo@gmail.com
+Processing Google OAuth signin for: baasoo@gmail.com
+Database query result - rows found: 1
+Linking Google OAuth to existing user: baasoo@gmail.com Current provider: google User ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+User updated successfully, ID: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+JWT callback - user: baasoo@gmail.com profile: baasoo@gmail.com token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+ GET /api/auth/callback/google?state=z5ZAKN18mt5ALYI1YsKjohfWBJWsh5Q-wkqdVkh-qvE&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM-xPCB0Z3czEc1S00zUiQQKyAWNlChir1yzd1pxoghljANGqEmRsosrHS0MQEvDrA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none 302 in 568ms (next.js: 15ms, application-code: 554ms)
+ GET /dashboard 200 in 419ms (next.js: 18ms, application-code: 401ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 116ms (next.js: 46ms, application-code: 70ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 100ms (next.js: 13ms, application-code: 87ms)
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/stats 200 in 357ms (next.js: 8ms, application-code: 349ms)
+ GET /dashboard 200 in 109ms (next.js: 9ms, application-code: 101ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 109ms (next.js: 42ms, application-code: 67ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 93ms (next.js: 26ms, application-code: 66ms)
+ GET /api/stats 200 in 119ms (next.js: 11ms, application-code: 108ms)
+ GET /dashboard 200 in 143ms (next.js: 8ms, application-code: 135ms)
+ GET /api/auth/session 200 in 50ms (next.js: 33ms, application-code: 17ms)
+ GET /login 200 in 61ms (next.js: 10ms, application-code: 52ms)
+ GET /api/auth/providers 200 in 38ms (next.js: 6ms, application-code: 33ms)
+ GET /api/auth/csrf 200 in 33ms (next.js: 8ms, application-code: 25ms)
+ POST /api/auth/signin/google 200 in 121ms (next.js: 4ms, application-code: 117ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 108ms (next.js: 40ms, application-code: 69ms)
+JWT callback - user: undefined profile: undefined token.email: baasoo@gmail.com token.sub: 103113422289602558611
+OAuth flow - fetching user from DB for email: baasoo@gmail.com
+Found user in DB: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 baasoo@gmail.com
+JWT callback returning token with userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 token.email: baasoo@gmail.com
+Session callback - token.userId: 37120cbf-38b2-4c85-9d0d-c4e062da77b4 session.user: baasoo@gmail.com
+Session callback returning - session.user.id: 37120cbf-38b2-4c85-9d0d-c4e062da77b4
+ GET /api/auth/session 200 in 71ms (next.js: 5ms, application-code: 66ms)
