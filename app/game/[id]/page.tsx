@@ -8,6 +8,7 @@ import { Card } from "@/lib/poker-evaluator";
 import CommunityCardsPane from "@/components/CommunityCardsPane";
 import PlayerRow from "@/components/PlayerRow";
 import ResultsPhase from "@/components/ResultsPhase";
+import CardDisplay from "@/components/CardDisplay";
 
 interface GameState {
   street: "pre-flop" | "flop" | "turn" | "river" | "complete";
@@ -575,23 +576,23 @@ export default function GamePage() {
 
               {/* Controls/Results Section */}
               {gameState.showResults && (
-                <div className=" text-center">
-                  {gameState.street === "river" && (
-                    <div className="mb-6">
-                      <h2 className="text-3xl font-bold mb-4">
-                        {`P${gameState.actualWinnerIdx! + 1} Wins`}
-                      </h2>
-                      <p className="text-lg text-poker-gold">
-                        With a {gameState.actualProbabilities?.[gameState.actualWinnerIdx || 0]?.toFixed(1)}% Win Probability at Turn
-                      </p>
+                <div className="text-center">
+                  {gameState.street === "river" ? (
+                    <div className="flex items-center justify-center gap-3">
+                      <CardDisplay card={gameState.holeCards[gameState.actualWinnerIdx!][0]} size="sm" />
+                      <CardDisplay card={gameState.holeCards[gameState.actualWinnerIdx!][1]} size="sm" />
+                      <span className="text-xl font-bold text-poker-gold">
+                        Wins after {gameState.actualProbabilities?.[gameState.actualWinnerIdx ?? 0]?.toFixed(1)}% win probability at turn
+                      </span>
+                      <button onClick={handleContinue} className="btn btn-primary text-lg">
+                        See Overall Score
+                      </button>
                     </div>
+                  ) : (
+                    <button onClick={handleContinue} className="btn btn-primary text-lg">
+                      Continue to Next Street
+                    </button>
                   )}
-                  <button
-                    onClick={handleContinue}
-                    className="btn btn-primary text-lg"
-                  >
-                    {gameState.street === "river" ? "See Overall Score" : "Continue to Next Street"}
-                  </button>
                 </div>
               )}
               {!gameState.showResults && !isCalculating && (

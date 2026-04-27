@@ -30,11 +30,6 @@ export default function PlayerRow({
 
   return (
     <div className={`rounded-lg p-4 flex items-center gap-6 ${isWinning ? 'bg-poker-gold/20' : ''}`}>
-      {/* Player Label */}
-      <div className="min-w-12 font-bold whitespace-nowrap">
-        {`P${playerIdx + 1}`}
-      </div>
-
       {/* Hole Cards */}
       <div className="flex gap-2">
         {holeCards.length === 2 ? (
