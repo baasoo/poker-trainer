@@ -575,12 +575,14 @@ input[type="range"]::-moz-range-thumb:hover {
 
 .dashboard-stats {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 48px;
 }
 
 .stat-card {
   flex: 1;
+  min-width: min(100%, 200px);
   padding: 20px 24px;
   background: var(--pt-surface);
   border: 1px solid var(--pt-border);
