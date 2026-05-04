@@ -7,7 +7,8 @@ const db = getDb();
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { email, password, name } = body;
+    const { email: rawEmail, password, name } = body;
+    const email = rawEmail?.toLowerCase();
 
     if (!email || !password) {
       return NextResponse.json(

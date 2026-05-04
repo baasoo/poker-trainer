@@ -20,8 +20,8 @@ export const authOptions: any = {
 
         try {
           const result = await db.query(
-            "SELECT id, email, password_hash, name, provider FROM users WHERE email = $1",
-            [credentials.email]
+            "SELECT id, email, password_hash, name, provider FROM users WHERE LOWER(email) = $1",
+            [credentials.email.toLowerCase()]
           );
 
           if (result.rows.length === 0) {
@@ -91,8 +91,8 @@ export const authOptions: any = {
       if (email && (!token.userId || token.userId.length > 15)) {
         try {
           const result = await db.query(
-            "SELECT id, email, name FROM users WHERE email = $1",
-            [email]
+            "SELECT id, email, name FROM users WHERE LOWER(email) = $1",
+            [email.toLowerCase()]
           );
           if (result.rows.length > 0) {
             const dbUser = result.rows[0];
@@ -117,8 +117,8 @@ export const authOptions: any = {
         if (token.userId && !token.userId.includes("-") && token.email) {
           try {
             const result = await db.query(
-              "SELECT id FROM users WHERE email = $1",
-              [token.email]
+              "SELECT id FROM users WHERE LOWER(email) = $1",
+              [(token.email as string).toLowerCase()]
             );
             if (result.rows.length > 0) {
               session.user.id = result.rows[0].id;
@@ -131,12 +131,12 @@ export const authOptions: any = {
       return session;
     },
 
-    async signIn({ user, account, profile }: any) {
+    async signIn({ account, profile }: any) {
       if (account?.provider === "google") {
         try {
           const existingUser = await db.query(
-            "SELECT id, email, name, provider FROM users WHERE email = $1",
-            [profile?.email]
+            "SELECT id, email, name, provider FROM users WHERE LOWER(email) = $1",
+            [profile?.email?.toLowerCase()]
           );
 
           if (existingUser.rows.length > 0) {
